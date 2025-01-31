@@ -57,7 +57,9 @@ namespace Y9_Iterwation
                 case int i when i > 4 && i < 7:
                     Console.WriteLine("You are in KS1");
                     break;
-                case 
+                case int i when i > 7 && i < 11:
+                    Console.WriteLine("You are in KS2");
+                        break;
             
             }
         }
